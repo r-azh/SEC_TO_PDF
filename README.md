@@ -28,7 +28,7 @@ PDFs will be written under `output\`.
 
 From the repo root:
 ```sh
-docker build -t sec_gov_10k_pdf .
+docker build -t sec_to_pdf .
 
 ```
 
@@ -40,7 +40,7 @@ This writes PDFs into a local `output/` folder via a Docker volume mount.
 mkdir output
 docker run --rm \
   -v ${PWD}\output:/output \
-  quartr-task
+  sec_to_pdf
 ```
 
 After it finishes, check `.\output\` for the generated PDFs.
