@@ -39,7 +39,7 @@ This writes PDFs into a local `output/` folder via a Docker volume mount.
 ```sh
 mkdir output
 docker run --rm \
-  -v ${PWD}\output:/output \
+  -v ${PWD}/output:/output \
   sec_to_pdf
 ```
 
