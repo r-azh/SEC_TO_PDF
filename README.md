@@ -9,7 +9,7 @@ This project fetches the latest **10‑K** filing for a predefined list of compa
 ### Configuration (environment variables)
 - **`OUTPUT_PATH`**: directory where PDFs are written
 
-## Run locally (Windows / sh)
+## Run locally (Linux)
 
 ### Using a virtual environment + pip
 
